@@ -1,24 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+
+
     <link rel="stylesheet" href="./css/styles.css">
-    <script src="./js/index.js"></script>
+    <script src="./js/jquery/jquery-3.6.0.min.js"></script>
 
     <title>NIBM Computing</title>
 </head>
+
 <body>
     <div class="page_container">
         <div class="background_layer">
-
+            <div class="mySlides fade">
+                <img src="/img/background_images/interior-1961070_1920.jpg">
+            </div>
+            <div class="mySlides fade">
+                <img src="/img/background_images/low-poly-3305284_1920.jpg">
+            </div>
+            <div class="mySlides fade">
+                <img src="/img/background_images/poly-3295856_1920.png">
+            </div>
+            <div class="mySlides fade">
+                <img src="/img/background_images/sewing-1229711_1920.jpg">
+            </div>
+            <div class="mySlides fade">
+                <img src="/img/background_images/tailoring-2575930_1920.jpg">
+            </div>
+            <div class="mySlides fade">
+                <img src="/img/background_images/wall-416060_1280.jpg">
+            </div>
+            <div class="bottom_container">
+                <img src="/img/background_images/Background_image_copy_cropped.png" alt="" srcset="">
+            </div>
         </div>
         <div class="foreground_layer">
             <div class="nav_container">
                 <div class="logo_container">
-
+                    <img src="/img//UI_Elements/National-Innovation-Centre-NIBM-School-of-Design-Logo.jpg">
                 </div>
                 <div class="navigation_container">
                     <h6 class="nav_item">
@@ -32,14 +56,20 @@
                     </h6>
                 </div>
                 <div class="search_container">
-
+                    <div class="search_input">
+                        <input type="search" placeholder="Type to search">
+                    </div>
+                    <img src="/img/UI_Elements/search_icon.png" alt="" srcset="">
                 </div>
             </div>
             <div class="main_content">
+                <div class="spacer"></div>
+                <div class="spacer"></div>
                 <div class="card_holder">
                     <div class="card">
                         <div class="image_holder">
-                            <img src="/img/FD Logo.jpg" alt="" srcset="">
+                            <img class="img_background" src="/img/UI_Elements/Ellipse_1.png" alt="" srcset="">
+                            <img class="image" src="/img/UI_Elements/Layer_10.png" alt="" srcset="">
                         </div>
                         <div class="main_title">
                             <h1>
@@ -62,7 +92,8 @@
 
                     <div class="card">
                         <div class="image_holder">
-                            <img src="/img/VC Logo.jpg">
+                            <img class="img_background" src="/img/UI_Elements/Ellipse_1.png" alt="" srcset="">
+                            <img class="image" src="/img/UI_Elements/Layer_10.png" alt="" srcset="">
                         </div>
                         <div class="main_title">
                             <h1>
@@ -85,7 +116,8 @@
 
                     <div class="card">
                         <div class="image_holder">
-                            <img src="/img/ID Logo.jpg">
+                            <img class="img_background" src="/img/UI_Elements/Ellipse_1.png" alt="" srcset="">
+                            <img class="image" src="/img/UI_Elements/Layer_10.png" alt="" srcset="">
                         </div>
                         <div class="main_title">
                             <h1>
@@ -104,11 +136,14 @@
                                 </h3>
                             </div>
                         </div>
-                        
+
                     </div>
                 </div>
+                <div class="spacer"></div>
             </div>
         </div>
     </div>
 </body>
+<script src="./js/index.js"></script>
+
 </html>
