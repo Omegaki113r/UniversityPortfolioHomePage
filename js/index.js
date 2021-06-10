@@ -1,7 +1,15 @@
-var slideIndex = 0;
-showSlides();
+const facebook_link = "https://facebook.com";
+const twitter_link = "https://twitter.com";
+const instagram_link = "https://instagram.com";
+const youtube_link = "https://youtube.com";
+const linkedin_link = "https://linkedin.com";
 
+var SCREEN_WIDTH = screen.width;
+var slideIndex = 0;
 var isSearchExpanded = false;
+
+
+showSlides();
 
 function showSlides() {
     var i;
@@ -41,25 +49,40 @@ function collapseSearch(){
     input_element.style.display = "none";
 }
 
+function openNewTab(link){
+    var newTab = window.open(link, '_blank');
+        newTab.location;
+}
+
 $(document).ready(function(){
     console.log("document ready");
     $(".logo_container").click(function () {
         console.log("logo container pressed");
         alert("jquery works");
     });
-
     $(".search_input").focusout(function(){
         console.log("focus is out");
-        collapseSearch();
-    });
-    
-    $(".image_button_container").click(function(event){
-        console.log("search button pressed");
-        if(isSearchExpanded){
-            collapseSearch();
+        SCREEN_WIDTH = screen.width;
+        if(SCREEN_WIDTH >= 768){
         }else{
-            expandSearch();
+            collapseSearch();
         }
+    });
+    $(".image_button_container").click(function(event){
+        SCREEN_WIDTH = screen.width;
+        if(SCREEN_WIDTH >= 768){
+            //this means website is running either on tablet or PC
+            console.log("search button on tablet or PC");
+        }else{
+            // this means website is running on mobile
+            console.log("search button on mobile");
+            if(isSearchExpanded){
+                collapseSearch();
+            }else{
+                expandSearch();
+            }
+        }
+        
     });
 
     $(".home_item").click(function(){
@@ -73,6 +96,21 @@ $(document).ready(function(){
     $(".about_item").click(function(){
         console.log("about pressed");
         window.location = "about.html"
+    });
+    $(".facebook").click(function(){
+        openNewTab(facebook_link);
+    });
+    $(".twitter").click(function(){
+        openNewTab(twitter_link);
+    });
+    $(".instagram").click(function(){
+        openNewTab(instagram_link);
+    });
+    $(".youtube").click(function(){
+        openNewTab(youtube_link)
+    });
+    $(".linkedin").click(function(){
+        openNewTab(linkedin_link)
     });
 });
 
