@@ -107,8 +107,8 @@ $footer_layer_z_index:61;
             flex-direction: row;
             justify-content: space-between;
             .logo_container {
-                height: 50px;
-                width: 50px;
+                height: 70px;
+                width: 130px;
         
                 margin-left: 20px;
                 margin-right: 5px;
@@ -298,14 +298,7 @@ $footer_layer_z_index:61;
                 }
             }
         }
-        .footer_contact_details_container{
-            display: grid;
-            grid-template-columns: auto auto auto auto;
-            h6{
-                font-weight: bolder;
-            }  
-            font-weight: bolder;
-        }
+
         .footer_copyright_container{
             display: grid;
             grid-template-columns: auto auto auto;
@@ -415,6 +408,11 @@ $footer_layer_z_index:61;
         .hotline_container{
             display: none;
         }
+        .telephone_container_adjuster{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+        }
         .social_media_icon_holder{
             img{
                 display: none;
@@ -424,6 +422,14 @@ $footer_layer_z_index:61;
             h6{
                 display: none;
             }
+        }
+        .footer_contact_details_container{
+            display: grid;
+            grid-template-columns: auto auto;
+            h6{
+                font-weight: bolder;
+            }  
+            font-weight: bolder;
         }
     }
     
@@ -491,6 +497,14 @@ $footer_layer_z_index:61;
             h6{
                 display: block;
             }
+        }
+        .footer_contact_details_container{
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            h6{
+                font-weight: bolder;
+            }  
+            font-weight: bolder;
         }
     }
     .tall_wave_svg{
@@ -564,6 +578,14 @@ $footer_layer_z_index:61;
             h6{
                 display: block;
             }
+        }
+        .footer_contact_details_container{
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            h6{
+                font-weight: bolder;
+            }  
+            font-weight: bolder;
         }
     }
     .tall_wave_svg{
