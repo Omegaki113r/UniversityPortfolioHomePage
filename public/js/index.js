@@ -206,6 +206,16 @@ $(document).ready(function(){
         
     });
 
+    $(".fashion_design").click(function(){
+        alert("fashion design pressed");
+    });
+    $(".visual_communication").click(function(){
+        alert("visual communication pressed");
+    });
+    $(".interior_architecture").click(function(){
+        alert("interior architecture pressed");
+    });
+
     $(".home_item").click(function(){
         console.log("home pressed");
         window.location = "index.html"
