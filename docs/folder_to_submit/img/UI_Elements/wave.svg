@@ -1,0 +1,13 @@
+<svg id="visual" class="tall_wave_svg" viewBox="0 0 320 568" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" preserveAspectRatio="none">
+                <defs>
+                    <linearGradient id="gradient" x1="0%" y1="0%" x2="80%" y2="0%">
+                        <stop offset="0%" stop-color="#F8A725" />
+                        <stop offset="100%" stop-color="#075199" />
+                    </linearGradient>
+                </defs>
+                <path class="bottom_wave"
+                    d="M0 380L10.7 385.2C21.3 390.3 42.7 400.7 64 405.2C85.3 409.7 106.7 408.3 128 406.7C149.3 405 170.7 403 192 398.5C213.3 394 234.7 387 256 388.3C277.3 389.7 298.7 399.3 309.3 404.2L320 409L320 569L309.3 569C298.7 569 277.3 569 256 569C234.7 569 213.3 569 192 569C170.7 569 149.3 569 128 569C106.7 569 85.3 569 64 569C42.7 569 21.3 569 10.7 569L0 569Z" 
+                    fill="#0066FF" stroke-linecap="round" stroke-linejoin="miter">
+                </path>
+            </svg> 

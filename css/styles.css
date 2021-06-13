@@ -226,10 +226,11 @@
 
 .top_layer_container .card_holder .card {
   display: grid;
-  grid-template-rows: 40% 20% auto;
+  grid-template-rows: 40% 10% auto;
   border-radius: 10px;
   box-shadow: 5px 5px #686b6a52;
   padding: 10px;
+  padding-top: 30px;
   margin: 0px 10px;
   background-color: white;
   flex-shrink: 0;
@@ -257,12 +258,12 @@
 
 .top_layer_container .card_holder .card .main_title {
   width: 80%;
-  margin: 5px auto;
+  margin: 10px auto;
   font-weight: bolder;
 }
 
 .top_layer_container .card_holder .card .sub_title_container {
-  opacity: 50%;
+  opacity: 75%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -326,7 +327,8 @@
 .top_layer_container .footer .footer_copyright_container .social_media_icon_holder {
   display: grid;
   grid-template-columns: auto auto auto auto auto;
-  column-gap: 2px;
+  column-gap: 5px;
+  justify-self: end;
 }
 
 .top_layer_container .footer .footer_copyright_container .social_media_icon_holder .icon_container img {
@@ -389,11 +391,14 @@
     margin-top: 40%;
   }
   .card_holder .card {
-    height: 220px;
-    width: 220px;
+    height: 200px;
+    width: 200px;
   }
   .card_holder .card .main_title {
-    font-size: 1rem;
+    font-size: 0.9rem;
+  }
+  .card_holder .card .sub_title_container {
+    font-size: 0.8rem;
   }
   .footer .footer_top_layer {
     padding: 100px 5px 5px 5px;
@@ -449,15 +454,18 @@
   }
   .card_holder {
     margin: auto auto 0px auto;
-    justify-content: space-evenly safe;
+    justify-content: space-evenly;
     margin-top: 40%;
   }
   .card_holder .card {
-    height: 250px;
-    width: 250px;
+    height: 200px;
+    width: 200px;
   }
   .card_holder .card .main_title {
-    font-size: 1.0rem;
+    font-size: 0.95rem;
+  }
+  .card_holder .card .sub_title_container {
+    font-size: 0.85rem;
   }
   .footer {
     padding: 100px 30px 0px 30px;
@@ -503,6 +511,11 @@
     height: 1000px;
     width: 100%;
   }
+  .telephone_container_adjuster {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -532,11 +545,14 @@
     margin-top: 30%;
   }
   .card_holder .card {
-    height: 300px;
-    width: 300px;
+    height: 220px;
+    width: 220px;
   }
   .card_holder .card .main_title {
-    font-size: 1.2rem;
+    font-size: 0.95rem;
+  }
+  .card_holder .card .sub_title_container {
+    font-size: 0.85rem;
   }
   .footer {
     padding: 100px 30px 0px 30px;
@@ -581,6 +597,11 @@
   .short_wave_svg {
     height: 1000px;
     width: 100%;
+  }
+  .telephone_container_adjuster {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
   }
 }
 
