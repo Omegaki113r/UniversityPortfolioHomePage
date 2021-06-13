@@ -75,10 +75,6 @@
   width: 100%;
 }
 
-.page_container {
-  overflow: hidden;
-}
-
 .page_container h6 {
   font-weight: lighter;
 }
@@ -94,7 +90,9 @@
 }
 
 .bottom_layer_container .image_switcher {
+  height: 100%;
   width: 100%;
+  overflow: hidden;
 }
 
 .bottom_layer_container img {
@@ -115,11 +113,11 @@
 }
 
 .top_layer_container .nav_controller {
-  position: absolute;
+  position: sticky;
   top: 0px;
   left: 0px;
   width: 100%;
-  z-index: 60;
+  z-index: 64;
 }
 
 .top_layer_container .nav_controller .nav_container {

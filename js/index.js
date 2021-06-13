@@ -195,11 +195,11 @@ $(document).ready(function(){
             }else{
                 expandSearch();
                 if(RunningTimer == null){
-                    RunningTimer = new timer(handleInputChanged,8000);
+                    //RunningTimer = new timer(handleInputChanged,8000);
                 }else{
                     RunningTimer.stop();
                     RunningTimer = null;
-                    RunningTimer = new timer(handleInputChanged,8000);
+                    //RunningTimer = new timer(handleInputChanged,8000);
                 }
             }
         }

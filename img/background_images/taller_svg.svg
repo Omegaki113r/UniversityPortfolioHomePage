@@ -1,0 +1,13 @@
+<svg id="visual" 
+viewBox="0 0 900 2000" 
+width="100%" height="100%" 
+xmlns="http://www.w3.org/2000/svg" 
+xmlns:xlink="http://www.w3.org/1999/xlink" 
+version="1.1"
+preserveAspectRatio="none">
+    <path d="M0 471L30 463.2C60 455.3 120 439.7 180 448C240 456.3 300 488.7 360 511.7C420 534.7 480 548.3 540 552C600 555.7 660 549.3 720 542.7C780 536 840 529 870 525.5L900 522L900 1001L870 1001C840 1001 780 1001 720 1001C660 1001 600 1001 540 1001C480 1001 420 1001 360 1001C300 1001 240 1001 180 1001C120 1001 60 1001 30 1001L0 1001Z" 
+    fill="#ffffff" 
+    stroke-linecap="round" 
+    stroke-linejoin="miter">
+    </path>
+</svg>
